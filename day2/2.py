@@ -23,8 +23,6 @@ class Splitter:
                     diff_letter = letters[0]
                     diff_word.append(self.words[i])
                     final_word = list(diff_word[0])
-                    print(final_word)
-                    print(final_word.remove(diff_letter))
                     print("".join(final_word))
 
 
